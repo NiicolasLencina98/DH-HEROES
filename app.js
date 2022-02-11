@@ -9,7 +9,7 @@ const port = 3030
 //para que tome el css y img
 app.use(express.static('./src/public'));
 
-app.listen(port, () => console.log("FUNCIONA!"))
+app.listen(port, () => console.log("SERVIDOR LEVANTADO EN EL PUERTO 3030!"))
 
 
 app.get('/' , (req, res) => {
